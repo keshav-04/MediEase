@@ -3,35 +3,43 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import reena from "/src/assets/img/reena.jpg";
+import charnjit from "/src/assets/img/charnjit.jpg";
+import gurvinder from "/src/assets/img/gurvinder.png";
+import dipti from "/src/assets/img/Dipti.jpg";
+import vikas from "/src/assets/img/vikas.jpg";
+import vijay from "/src/assets/img/vijay.jpg";
+
+
 const Staff = () => {
   const data = [
     {
-      img: "/src/assets/img/reena.jpg",
+      img: reena,
       name: "Dr. Reena Rani",
       specialties: "Doctor – Allopathy",
     },
     {
-      img: "/src/assets/img/charnjit.jpg",
+      img: charnjit,
       name: "Dr. Charanjit Singh",
       specialties: "Doctor – Allopathy",
     },
     {
-      img: "/src/assets/img/gurvinder.png",
+      img: gurvinder,
       name: "Dr. Gurvinder Kaur Saini",
       specialties: "Doctor – Ayurveda",
     },
     {
-      img: "/src/assets/img/Dipti.jpg",
+      img: dipti,
       name: "Dr. Dipti Borad",
       specialties: "Doctor – Homeopathy",
     },
     {
-      img: "/src/assets/img/vikas.jpg",
+      img: vikas,
       name: "Mr. Vikas",
       specialties: "Pharmacist",
     },
     {
-      img: "/src/assets/img/vijay.jpg",
+      img: vijay,
       name: "Mr. Vijay Singh",
       specialties: "Pharmacist",
     },

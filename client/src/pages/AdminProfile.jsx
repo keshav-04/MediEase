@@ -18,6 +18,7 @@ import { useAuthContext } from "../hooks/useAuthContext";
 import { apiRoutes } from "../utils/apiRoutes";
 import { SyncLoadingScreen } from "../components/UI/LoadingScreen";
 import { useLogout } from "../hooks/useLogout";
+import patientPic from "/src/assets/img/patient.png";
 
 const getAdminData = async (userEmail) => {
   try {
@@ -141,7 +142,7 @@ export default function AdminProfile({ edit = false }) {
               <div className="flex flex-col sm:w-2/5 w-full min-w-fit justify-center gap-8 p-4 border border-blue-gray-100">
                 <div className="flex justify-center">
                   <img
-                    src="/src/assets/img/patient.png"
+                    src={patientPic}
                     alt="admin"
                     className="rounded-full w-48 h-48 "
                   />

@@ -44,6 +44,7 @@ import { useLogout } from "../hooks/useLogout";
 import { toast } from "sonner";
 import Footer from "../components/Footer.jsx";
 import roleMap from "../utils/rolesMap.js";
+import logo from "/src/assets/img/logo.png";
 const Layout = ({ children }) => {
   const { userRole, userName } = useAuthContext();
   const { logout } = useLogout();
@@ -141,7 +142,7 @@ const Layout = ({ children }) => {
               <div className="h-12 w-12 flex-shrink-0">
                 <a href="/">
                   <img
-                    src="/src/assets/img/logo.png"
+                    src={logo}
                     alt="Logo"
                     className="-ml-3 -mr-2 cursor-pointer"
                     style={{ width: "100%", height: "100%" }}

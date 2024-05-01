@@ -15,6 +15,7 @@ import Layout from "../layouts/PageLayout";
 import { SyncLoadingScreen } from "../components/UI/LoadingScreen";
 import { toast } from "sonner";
 import { setToastTimeout } from "../utils/customTimeout";
+import iitrprLogo from "/src/assets/img/iitroparlogo0.jpg";
 const TABLE_HEAD = ["Medicine", "Dosage", "Quantity"];
 
 const PrescriptionDetail = () => {
@@ -129,7 +130,7 @@ const PrescriptionDetail = () => {
               <CardBody>
                 <div className="flex flex-col sm:flex-row border-b border-black p-2 items-center w-full">
                   <img
-                    src="\src\assets\img\iitroparlogo0.jpg"
+                    src={iitrprLogo}
                     alt="logo"
                     className="px-4 w-fit h-24 rounded-none"
                   />

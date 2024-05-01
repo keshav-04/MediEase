@@ -15,6 +15,7 @@ import html2pdf from "html2pdf.js";
 import { SyncLoadingScreen } from "../components/UI/LoadingScreen";
 import {toast} from "sonner";
 import {setToastTimeout} from "../utils/customTimeout"
+import iitrprLogo from "/src/assets/img/iitroparlogo0.jpg";
 const TABLE_HEAD = [
   "Medicine",
   "Batch No",
@@ -103,7 +104,7 @@ const PurchaseDetail = () => {
                   className="w-4/5 h-20 rounded-none"
                 /> */}
                   <img
-                    src="\src\assets\img\iitroparlogo0.jpg"
+                    src={iitrprLogo}
                     alt="logo"
                     className="px-4 w-fit h-24 rounded-none"
                   />
