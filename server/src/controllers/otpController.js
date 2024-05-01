@@ -1,7 +1,7 @@
 const { PrismaClient } = require("@prisma/client");
 const prisma = new PrismaClient();
 const sendMail = require("../utils/sendMail.js");
-const generateOtp = require("../utils/generateOtp.js");
+const generateOtp = require("../utils/generateOTP.js");
 const ExpressError = require("../utils/ExpressError.js");
 const { OTP_MAIL_TEMPLATE } = require("../../constants.js");
 
