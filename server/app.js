@@ -11,7 +11,7 @@ app.use(cookieParser());
 
 //TODO: Change the origin to deployed frontend URL
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: ["http://localhost:5173", "https://mediease-client.vercel.app"],
     credentials: true
 }));
 
