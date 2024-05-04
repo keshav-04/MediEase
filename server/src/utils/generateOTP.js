@@ -4,7 +4,8 @@ const generateOtp = () => {
     const otp = Math.floor(100000 + Math.random() * 900000).toString();
     const expiry = new Date();
 
-    expiry.setMinutes(expiry.getMinutes() + OTP_EXPIRY_TIME);
+    // expiry.setMinutes(expiry.getMinutes() + OTP_EXPIRY_TIME);
+    expiry.setDate(expiry.getDate() + 1);
     return { otp, expiry };
 };
 
