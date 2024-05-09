@@ -199,7 +199,7 @@ export function SortableTable({
       item[searchKey].toLowerCase().includes(str.toLowerCase())
     );
     setSearchList(filteredArray);
-    sorting(defaultSortOrder);
+    sorting("action");
   };
 
   const paginate = (act) => {
