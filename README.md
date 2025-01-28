@@ -1,5 +1,7 @@
 # MediEase
 
+![image](https://github.com/keshav-04/MediEase/assets/112396029/2c513b81-8d07-4f73-b32b-a61d735b2d7d)
+
 ## Project Description
 
 Comprehensive solution designed to streamline the operations of medical centers. It simplify medical center operations by modernizing management systems, digitizing record-keeping, enhancing user experiences for medical staff and professionals, and improving patient care and management.
